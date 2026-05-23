@@ -1,2 +1,2 @@
 # mlops-zoomcamp-exercises
-learn from mlops-zoomcamp
+Learn from mlops-zoomcamp
