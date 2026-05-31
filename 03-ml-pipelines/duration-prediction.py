@@ -16,8 +16,9 @@ models_folder = Path('models')
 models_folder.mkdir(exist_ok=True)
 
 def read_dataframe(year, month): 
-    filename = f'https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_{year}-{month:02d}.parquet'
+    filename = f"data/green_tripdata_{year}-{month:02d}.parquet"
     df = pd.read_parquet(filename)
+    print(df.sh)
 
     df['duration'] = df.lpep_dropoff_datetime - df.lpep_pickup_datetime
     df.duration = df.duration.apply(lambda td: td.total_seconds() / 60)
@@ -80,11 +81,13 @@ def train_model(X_train, y_train, X_val, y_val, dv):
 
     return run_id
 
+from prefect import flow 
 
+@flow
 def main(year, month):
     df_train = read_dataframe(year, month)
     next_month = month + 1 if month < 12 else 1
-    next_year = year if year < 12 else year + 1
+    next_year = year if month < 12 else year + 1
 
     df_val = read_dataframe(year=next_year, month=next_month)
 
@@ -98,6 +101,7 @@ def main(year, month):
 
     run_id = train_model(X_train, y_train, X_val, y_val, dv)
     return run_id
+
 
 if __name__ == "__main__":
     import argparse
