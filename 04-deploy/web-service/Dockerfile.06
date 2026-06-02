@@ -1,0 +1,7 @@
+FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
+
+RUN pip install -U pip
+RUN pip install pandas pyarrow scikit-learn==1.5.0
+COPY [ "starter-docker.py", "./" ]
+
+ENTRYPOINT [ "python", "starter-docker.py" ]

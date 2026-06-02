@@ -5,6 +5,7 @@ ride = {
     "DOLocationID": 50,
     "trip_distance":40
 }
-url = 'http://127.0.0.1:9696/predict'
+
+url = "http://ec2-15-168-7-126.ap-northeast-3.compute.amazonaws.com:9696/predict"
 resp = requests.post(url, json=ride)
 print(resp.json())
