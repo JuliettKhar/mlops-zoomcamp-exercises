@@ -20,15 +20,3 @@
 | mlflow.db        | SQLite database used by MLflow.                                             |
 | run_id.txt       | Stored MLflow run identifier for model registration and reproducibility.    |
 | README.md        | Documentation and project overview.                                         |
-
-
-
-
-
-
-
-HW03.ipynb https://colab.research.google.com/drive/1p_4QQfXLYXLhvKVg0PPJsESDlRkSaeEM?usp=sharing
-
-duration-prediction.ipynb https://colab.research.google.com/drive/1Mi6SFjXagT5mnKuEpaszjKdXFUKKcx6-?usp=sharing
-
-duration-prediction.ipynb https://colab.research.google.com/drive/1m8K3-kfCCc4ziJ3BPNnJWo6Xv1tAidz1?usp=sharing
