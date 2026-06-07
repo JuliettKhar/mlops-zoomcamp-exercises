@@ -2,9 +2,9 @@
 
 | Notebook                  | Description                                                                                 | Colab                                                                                                  |
 | ------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| HW_exper-tracking.ipynb   | Homework for Module 2: Experiment Tracking and Model Management.                            | [Open in Colab](https://colab.research.google.com/drive/1m1VWy0zc2wNgEQ05ak0-kBErnCyQcclA?usp=sharing) |
-| mlflow-tracking.ipynb     | MLflow basics: logging parameters, metrics, artifacts, and models.                          | [Open in Colab](https://colab.research.google.com/drive/1VNFSJrl2uEvZ5vV4HZ961aJegn7HgqXo?usp=sharing) |
-| duration-prediction.ipynb | Baseline NYC Taxi trip duration prediction using linear regression and feature engineering. | [Open in Colab](https://colab.research.google.com/drive/1ZHmzhr_fwyUZeDiqTwLd3I_VvLb_LcQ5?usp=sharing) |
+| HW_exper-tracking.ipynb   | Homework for Module 2: Experiment Tracking and Model Management.                            | [Open in Colab](https://colab.research.google.com/github/JuliettKhar/mlops-zoomcamp-exercises/blob/main/02-experiment-tracking/HW_exper-tracking.ipynb) |
+| mlflow-tracking.ipynb     | MLflow basics: logging parameters, metrics, artifacts, and models.                          | [Open in Colab](https://colab.research.google.com/github/JuliettKhar/mlops-zoomcamp-exercises/blob/main/02-experiment-tracking/mlflow-tracking.ipynb) |
+| duration-prediction.ipynb | Baseline NYC Taxi trip duration prediction using linear regression and feature engineering. | [Open in Colab](https://colab.research.google.com/github/JuliettKhar/mlops-zoomcamp-exercises/blob/main/02-experiment-tracking/duration-prediction.ipynb) |
 
 ## Project Structure
 

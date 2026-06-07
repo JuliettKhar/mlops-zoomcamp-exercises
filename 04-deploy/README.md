@@ -2,7 +2,7 @@
 
 | Notebook                  | Description                                                                        | Colab                                                                                                  |
 | ------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| starter.ipynb             | Homework for Module 4: Model Deployment. Batch scoring of NYC Taxi trip durations. | [Open in Colab](https://colab.research.google.com/drive/1zvaJJRdQoU-7HIQoRXgnQ4MINJ3x1cgc?usp=sharing) |
+| starter.ipynb             | Homework for Module 4: Model Deployment. Batch scoring of NYC Taxi trip durations. | [Open in Colab](https://colab.research.google.com/github/JuliettKhar/mlops-zoomcamp-exercises/blob/main/04-deploy/web-service/starter.ipynb) |
 | duration-prediction.ipynb | Training the linear regression model used for the deployment service.             | —                                                                                                      |
 
 ## Project Structure
