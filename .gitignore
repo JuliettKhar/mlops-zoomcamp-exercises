@@ -20,9 +20,11 @@ venv
 **/artifacts/
 **/models/
 
-# Keep the monitoring model despite the rule above
+# Keep models needed by the Colab notebooks (override **/models/ above)
 !05-ml-monitoring/models/
 !05-ml-monitoring/models/lin_reg.bin
+!04-deploy/web-service/models/
+!04-deploy/web-service/models/lin_reg.bin
 
 __pycache__/
 **.env
