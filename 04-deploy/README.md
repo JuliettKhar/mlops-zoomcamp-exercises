@@ -1,3 +1,5 @@
+**Module 4 — Deployment.** Serving the duration model two ways: an online Flask web service (`/predict`) and an offline batch scoring script, packaged with Docker.
+
 ## Notebooks
 
 | Notebook                  | Description                                                                        | Colab                                                                                                  |

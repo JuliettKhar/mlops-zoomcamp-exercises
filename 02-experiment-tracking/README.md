@@ -1,3 +1,5 @@
+**Module 2 — Experiment Tracking.** Tracking experiments with MLflow — logging parameters, metrics and artifacts, hyperparameter tuning with Hyperopt, and registering models in the MLflow Model Registry.
+
 ## Notebooks
 
 | Notebook                  | Description                                                                                 | Colab                                                                                                  |

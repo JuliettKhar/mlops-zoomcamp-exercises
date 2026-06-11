@@ -1,3 +1,5 @@
+**Module 5 — Monitoring.** Monitoring data and prediction drift with Evidently, persisting daily metrics to PostgreSQL and visualizing them in Grafana (via Docker Compose).
+
 ## Notebooks
 
 | Notebook                          | Description                                                                                       | Colab                                                                                                                                              |

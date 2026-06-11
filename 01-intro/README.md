@@ -1,3 +1,5 @@
+**Module 1 — Introduction.** A baseline model for NYC Taxi trip duration: data preparation, feature engineering (one-hot encoded pickup/dropoff zones), and linear regression with scikit-learn.
+
 ## Notebooks
 
 | Notebook                  | Description                                                                                    | Colab                                                                                                  |

@@ -1,3 +1,5 @@
+**Module 3 — ML Pipelines.** Turning the training notebook into a reproducible, parameterized pipeline with MLflow tracking and saved model artifacts.
+
 ## Notebooks
 
 | Notebook                  | Description                                                                                         | Colab                                                                                                  |
