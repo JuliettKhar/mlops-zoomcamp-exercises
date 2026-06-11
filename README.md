@@ -23,6 +23,7 @@ Course materials I followed: [JuliettKhar/mlops-zoomcamp](https://github.com/Jul
 | [04-deploy](04-deploy/) | Deployment | Serving the model as a Flask web service and as a batch scoring script. |
 | [05-ml-monitoring](05-ml-monitoring/) | Monitoring | Data and prediction drift with Evidently; metrics to Postgres + Grafana. |
 | [06-tests](06-tests/) | Best Practices | Unit testing the batch scoring pipeline with pytest. |
+| [07-final-project](07-final-project/) | Final Project | End-to-end MLOps app — [used car price prediction](https://github.com/JuliettKhar/used-car-price-prediction-mlops) (separate repo). |
 
 Each module folder has its own `README.md` with the notebooks, descriptions, and "Open in Colab" links.
 
